@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-15T23:46:49 IST" name="Suite" finished-at="2025-08-15T23:46:52 IST" duration-ms="2668">
+  <suite started-at="2025-08-16T01:49:33 IST" name="Suite" finished-at="2025-08-16T01:49:35 IST" duration-ms="2086">
     <groups>
     </groups>
-    <test started-at="2025-08-15T23:46:49 IST" name="SauceDemoUserFlow" finished-at="2025-08-15T23:46:52 IST" duration-ms="2668">
+    <test started-at="2025-08-16T01:49:33 IST" name="SauceDemoUserFlow" finished-at="2025-08-16T01:49:35 IST" duration-ms="2086">
       <class name="com.saucedemo.testcases.CheckoutCompleteTest">
-        <test-method signature="validateCartAmount()[pri:0, instance:com.saucedemo.testcases.CheckoutCompleteTest@72c8e7b]" started-at="2025-08-15T23:46:51 IST" name="validateCartAmount" finished-at="2025-08-15T23:46:52 IST" duration-ms="314" status="PASS">
+        <test-method signature="validateCartAmount()[pri:0, instance:com.saucedemo.testcases.CheckoutCompleteTest@1c9b0314]" started-at="2025-08-16T01:49:34 IST" name="validateCartAmount" finished-at="2025-08-16T01:49:35 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartAmount -->
       </class> <!-- com.saucedemo.testcases.CheckoutCompleteTest -->
       <class name="com.saucedemo.testcases.CartTest">
-        <test-method signature="CartItems()[pri:0, instance:com.saucedemo.testcases.CartTest@194fad1]" started-at="2025-08-15T23:46:50 IST" name="CartItems" finished-at="2025-08-15T23:46:51 IST" duration-ms="499" status="PASS">
+        <test-method signature="CartItems()[pri:0, instance:com.saucedemo.testcases.CartTest@5efa40fe]" started-at="2025-08-16T01:49:34 IST" name="CartItems" finished-at="2025-08-16T01:49:34 IST" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartItems -->
       </class> <!-- com.saucedemo.testcases.CartTest -->
       <class name="com.saucedemo.testcases.MenuTest">
-        <test-method signature="validateLogHome()[pri:0, instance:com.saucedemo.testcases.MenuTest@431cd9b2]" started-at="2025-08-15T23:46:52 IST" name="validateLogHome" finished-at="2025-08-15T23:46:52 IST" duration-ms="352" status="PASS">
+        <test-method signature="validateLogHome()[pri:0, instance:com.saucedemo.testcases.MenuTest@49c90a9c]" started-at="2025-08-16T01:49:35 IST" name="validateLogHome" finished-at="2025-08-16T01:49:35 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogHome -->
       </class> <!-- com.saucedemo.testcases.MenuTest -->
       <class name="com.saucedemo.testcases.ProductsTest">
-        <test-method is-config="true" signature="setupLogin()[pri:0, instance:com.saucedemo.testcases.ProductsTest@4722ef0c]" started-at="2025-08-15T23:46:36 IST" name="setupLogin" finished-at="2025-08-15T23:46:49 IST" duration-ms="13861" status="PASS">
+        <test-method is-config="true" signature="setupLogin()[pri:0, instance:com.saucedemo.testcases.ProductsTest@798162bc]" started-at="2025-08-16T01:49:23 IST" name="setupLogin" finished-at="2025-08-16T01:49:33 IST" duration-ms="10392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="addToCart()[pri:0, instance:com.saucedemo.testcases.ProductsTest@4722ef0c]" started-at="2025-08-15T23:46:50 IST" name="addToCart" finished-at="2025-08-15T23:46:50 IST" duration-ms="398" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:com.saucedemo.testcases.ProductsTest@798162bc]" started-at="2025-08-16T01:49:33 IST" name="addToCart" finished-at="2025-08-16T01:49:34 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.saucedemo.testcases.ProductsTest@4722ef0c]" started-at="2025-08-15T23:46:52 IST" name="closeBrowser" finished-at="2025-08-15T23:46:56 IST" duration-ms="4107" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.saucedemo.testcases.ProductsTest@798162bc]" started-at="2025-08-16T01:49:35 IST" name="closeBrowser" finished-at="2025-08-16T01:49:37 IST" duration-ms="1471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.saucedemo.testcases.ProductsTest -->
       <class name="com.saucedemo.testcases.CheckoutInfoTest">
-        <test-method signature="userCheckoutInfo()[pri:0, instance:com.saucedemo.testcases.CheckoutInfoTest@26abb146]" started-at="2025-08-15T23:46:51 IST" name="userCheckoutInfo" finished-at="2025-08-15T23:46:51 IST" duration-ms="489" status="PASS">
+        <test-method signature="userCheckoutInfo()[pri:0, instance:com.saucedemo.testcases.CheckoutInfoTest@1f9f6368]" started-at="2025-08-16T01:49:34 IST" name="userCheckoutInfo" finished-at="2025-08-16T01:49:34 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCheckoutInfo -->
       </class> <!-- com.saucedemo.testcases.CheckoutInfoTest -->
       <class name="com.saucedemo.testcases.ThankYouTest">
-        <test-method signature="validateOrderConfirm()[pri:0, instance:com.saucedemo.testcases.ThankYouTest@65f8f5ae]" started-at="2025-08-15T23:46:52 IST" name="validateOrderConfirm" finished-at="2025-08-15T23:46:52 IST" duration-ms="196" status="PASS">
+        <test-method signature="validateOrderConfirm()[pri:0, instance:com.saucedemo.testcases.ThankYouTest@45385f75]" started-at="2025-08-16T01:49:35 IST" name="validateOrderConfirm" finished-at="2025-08-16T01:49:35 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateOrderConfirm -->

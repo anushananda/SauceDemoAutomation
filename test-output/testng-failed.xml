@@ -3,10 +3,24 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SauceDemoUserFlow(failed)">
     <classes>
-      <class name="com.saucedemo.testcases.ThankYouTest">
+      <class name="com.saucedemo.testcases.CartTest">
         <methods>
           <include name="setupLogin"/>
+          <include name="CartItems"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.saucedemo.testcases.CartTest -->
+      <class name="com.saucedemo.testcases.MenuTest">
+        <methods>
+          <include name="validateLogHome"/>
+          <include name="setupLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.saucedemo.testcases.MenuTest -->
+      <class name="com.saucedemo.testcases.ThankYouTest">
+        <methods>
           <include name="validateOrderConfirm"/>
+          <include name="setupLogin"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.saucedemo.testcases.ThankYouTest -->
@@ -17,6 +31,13 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.saucedemo.testcases.CheckoutCompleteTest -->
+      <class name="com.saucedemo.testcases.CheckoutInfoTest">
+        <methods>
+          <include name="userCheckoutInfo"/>
+          <include name="setupLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.saucedemo.testcases.CheckoutInfoTest -->
     </classes>
   </test> <!-- SauceDemoUserFlow(failed) -->
 </suite> <!-- Failed suite [Suite] -->
