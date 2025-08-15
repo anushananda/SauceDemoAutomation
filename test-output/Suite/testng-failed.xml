@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SauceDemoUserFlow(failed)">
+    <classes>
+      <class name="com.saucedemo.testcases.ThankYouTest">
+        <methods>
+          <include name="setupLogin"/>
+          <include name="validateOrderConfirm"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.saucedemo.testcases.ThankYouTest -->
+      <class name="com.saucedemo.testcases.CheckoutCompleteTest">
+        <methods>
+          <include name="setupLogin"/>
+          <include name="validateCartAmount"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.saucedemo.testcases.CheckoutCompleteTest -->
+    </classes>
+  </test> <!-- SauceDemoUserFlow(failed) -->
+</suite> <!-- Failed suite [Suite] -->
