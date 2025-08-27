@@ -26,7 +26,7 @@ public class Base {
 	driver = new FirefoxDriver();
 		
 	//System.setProperty("webdriver.firefox.driver", path);
-	//driver = new FirefoxDriver();
+	//driver = new FirefoxDriver();	
 	driver.get(url);
 	driver.manage().window().maximize(); 
 	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
